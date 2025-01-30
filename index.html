@@ -34,23 +34,26 @@
             margin-bottom: 20px;
         }
 
-        /* CTA Button */
-        .cta-button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            color: white;
-            background-color: #ff9800;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-            font-weight: bold;
-            margin-top: 20px;
-        }
+      .cta-button {
+    display: inline-block;
+    padding: 18px 35px; /* Increased padding */
+    font-size: 1.4em; /* Bigger text */
+    color: white;
+    background-color: #ff9800;
+    text-decoration: none;
+    border-radius: 8px; /* Slightly more rounded */
+    font-weight: bold;
+    margin-top: 30px; /* More spacing */
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4); /* Adds a glow effect */
+}
 
-        .cta-button:hover {
-            background-color: #e68900;
-        }
+/* Add a hover effect */
+.cta-button:hover {
+    background-color: #e68900;
+    transform: scale(1.05); /* Slight pop effect on hover */
+}
+
 
         /* Email Opt-in Form */
         .email-signup {
@@ -83,33 +86,59 @@
 
 
 
-         .email-signup button {
-            padding: 12px 25px;
-            font-size: 1.4em;
-            color: white;
-            background-color: #ff9800;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
+       .email-signup button {
+    padding: 14px 30px; /* Increased padding */
+    font-size: 1.3em; /* Slightly bigger text */
+    color: white;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 152, 0, 0.4);
+}
 
-        .email-signup button:hover {
-            background-color: #e68900;
-        }
+/* Add a hover effect */
+.email-signup button:hover {
+    background-color: #e68900;
+    transform: scale(1.05); /* Pop effect */
+}
+
 
         /* Social Links */
-        .social-links {
-            margin-top: 30px;
-        }
+       .social-links {
+    margin-top: 40px;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
 
-        .social-links a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: white;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
+.social-links h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+/* Social Links Styling */
+
+.social-links a {
+    display: inline-block;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ff9800; /* Make the links orange */
+    transition: color 0.3s, transform 0.2s ease-in-out;
+}
+
+/* Add hover effect */
+.social-links a:hover {
+    color: #e68900;
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+
     </style>
 </head>
 <body>
