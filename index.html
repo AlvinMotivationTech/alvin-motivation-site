@@ -5,67 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alvin Motivational Tech</title>
     <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Banner Styling */
+        .banner {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #ff9800;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #e68900;
+        }
+
+        /* Email Opt-in Form */
         .email-signup {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-    margin-top: 30px;
-}
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            margin-top: 30px;
+        }
 
-.email-signup input {
-    width: 70%;
-    padding: 10px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    border: none;
-}
+        .email-signup h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
 
-.email-signup button {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    color: white;
-    background-color: #ff9800;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
+        .email-signup p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
 
-.email-signup button:hover {
-    background-color: #e68900;
-}
+        .email-signup input {
+            width: 80%;
+            padding: 12px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 10px;
+        }
 
+        .email-signup button {
+            padding: 12px 25px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #ff9800;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .email-signup button:hover {
+            background-color: #e68900;
+        }
+
+        /* Social Links */
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
     </style>
-
 </head>
 <body>
     <div class="container">
-        <img src="https://raw.githubusercontent.com/AlvinMotivationTech/alvin-motivation-site/refs/heads/main/DALL%C2%B7E%202025-01-15%2000.08.17%20-%20A%20highly%20detailed%20futuristic%20emblem%20with%20golden%20and%20teal%20metallic%20tones.%20At%20the%20center%2C%20a%20glowing%20orb%20featuring%20an%20infinity%20symbol%20radiates%20light.%20The.webp" alt="Motivational Banner" class="banner">
+        <!-- Banner -->
+        <img src="https://raw.githubusercontent.com/AlvinMotivationTech/alvin-motivation-site/main/banner.jpg" alt="Motivational Banner" class="banner">
+
+        <!-- Main Heading -->
         <h1>Welcome to Alvin Motivational Tech</h1>
         <p>Your daily source of motivation, success strategies, and life-changing insights.</p>
         <a href="https://motivatech.gumroad.com/" class="cta-button" target="_blank">Start Your Journey</a>
-<div class="email-signup">
-    <h2>🚀 Get Exclusive Success Tips!</h2>
-    <p>Sign up for free and unlock exclusive motivational content.</p>
-    <form action="https://motivatech.gumroad.com/l/free-success-guide" method="get">
-        <input type="email" name="email" placeholder="Enter your email..." required>
-        <button type="submit">📩 Get Free Access</button>
-    </form>
-</div>
 
+        <!-- Email Opt-in Form -->
         <div class="email-signup">
-    <h2>🚀 Get Exclusive Success Tips!</h2>
-    <p>Sign up for free and unlock exclusive motivational content.</p>
-    <form action="https://motivatech.gumroad.com/l/free-success-guide" method="get">
-        <input type="email" name="email" placeholder="Enter your email..." required>
-        <button type="submit">📩 Get Free Access</button>
-    </form>
-</div>
+            <h2>🚀 Get Exclusive Success Tips!</h2>
+            <p>Sign up for free and unlock exclusive motivational content.</p>
+            <form action="https://motivatech.gumroad.com/l/free-success-guide" method="get">
+                <input type="email" name="email" placeholder="Enter your email..." required>
+                <button type="submit">📩 Get Free Access</button>
+            </form>
+        </div>
 
+        <!-- Social Links -->
         <div class="social-links">
-            <p>Follow us for daily motivation:</p>
+            <h2>Follow Us for Daily Motivation:</h2>
             <a href="https://www.instagram.com/alvinmotivationtechnology/" target="_blank">Instagram</a> |
             <a href="https://www.youtube.com/@AlvinMotivationTechnology" target="_blank">YouTube</a> |
             <a href="https://www.linkedin.com/in/alvinbetram/" target="_blank">LinkedIn</a> |
