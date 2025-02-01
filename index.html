@@ -27,33 +27,31 @@
 
         /* Banner Styling */
         .banner {
-    width: 100%;
-    object-fit: contain; /* Ensures the full image is visible */
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
+            width: 100%;
+            object-fit: contain; /* Ensures the full image is visible */
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
 
+        .cta-button {
+            display: inline-block;
+            padding: 18px 35px;
+            font-size: 1.4em;
+            color: white;
+            background-color: #ff9800;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background 0.3s, transform 0.2s ease-in-out;
+            box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+        }
 
-      .cta-button {
-    display: inline-block;
-    padding: 18px 35px; /* Increased padding */
-    font-size: 1.4em; /* Bigger text */
-    color: white;
-    background-color: #ff9800;
-    text-decoration: none;
-    border-radius: 8px; /* Slightly more rounded */
-    font-weight: bold;
-    margin-top: 30px; /* More spacing */
-    transition: background 0.3s, transform 0.2s ease-in-out;
-    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4); /* Adds a glow effect */
-}
-
-/* Add a hover effect */
-.cta-button:hover {
-    background-color: #e68900;
-    transform: scale(1.05); /* Slight pop effect on hover */
-}
-
+        /* Add a hover effect */
+        .cta-button:hover {
+            background-color: #e68900;
+            transform: scale(1.05);
+        }
 
         /* Email Opt-in Form */
         .email-signup {
@@ -75,69 +73,36 @@
             margin-bottom: 20px;
         }
 
-        .email-signup input {
-    width: 80%;
-    padding: 12px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 20px; /* Increased spacing */
-}
-
-
-
-       .email-signup button {
-    padding: 14px 30px; /* Increased padding */
-    font-size: 1.3em; /* Slightly bigger text */
-    color: white;
-    background-color: #ff9800;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s, transform 0.2s ease-in-out;
-    box-shadow: 0 4px 10px rgba(255, 152, 0, 0.4);
-}
-
-/* Add a hover effect */
-.email-signup button:hover {
-    background-color: #e68900;
-    transform: scale(1.05); /* Pop effect */
-}
-
-
         /* Social Links */
-       .social-links {
-    margin-top: 40px;
-    padding: 15px 0;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-}
+        .social-links {
+            margin-top: 40px;
+            padding: 15px 0;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
 
-.social-links h2 {
-    font-size: 1.6em;
-    margin-bottom: 10px;
-}
+        .social-links h2 {
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
 
-/* Social Links Styling */
+        /* Social Links Styling */
+        .social-links a {
+            display: inline-block;
+            margin: 0 12px;
+            text-decoration: none;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #ff9800;
+            transition: color 0.3s, transform 0.2s ease-in-out;
+        }
 
-.social-links a {
-    display: inline-block;
-    margin: 0 12px;
-    text-decoration: none;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #ff9800; /* Make the links orange */
-    transition: color 0.3s, transform 0.2s ease-in-out;
-}
-
-/* Add hover effect */
-.social-links a:hover {
-    color: #e68900;
-    transform: scale(1.1); /* Slight zoom effect */
-}
-
+        /* Add hover effect */
+        .social-links a:hover {
+            color: #e68900;
+            transform: scale(1.1);
+        }
 
     </style>
 </head>
@@ -149,25 +114,14 @@
         <!-- Main Heading -->
         <h1>Welcome to Alvin Motivational Tech</h1>
         <p>Your daily source of motivation, success strategies, and life-changing insights.</p>
-        <a href="https://motivatech.gumroad.com/l/eqnfm" class="btn">Start Your Journey</a>
+        <a href="https://motivatech.gumroad.com/l/eqnfm" class="cta-button">Start Your Journey</a>
 
-           <!-- Email Opt-in Form -->
-    <div class="email-signup">
-        <h2>🚀 Get Exclusive Success Tips!</h2>
-        <p>Sign up for free and unlock exclusive motivational content.</p>
-        <a href="https://motivatech.gumroad.com/follow" class="cta-button">📩 Get Free Access</a>
-    </div>
-
-    <!-- Social Links -->
-    <div class="social-links">
-        <h2>Follow Us for Daily Motivation:</h2>
-        <a href="https://www.instagram.com/alvinmotivationtechnology/" target="_blank">Instagram</a> |
-        <a href="https://www.youtube.com/@AlvinMotivationTechnology" target="_blank">YouTube</a> |
-        <a href="https://www.linkedin.com/in/alvinbetram/" target="_blank">LinkedIn</a> |
-        <a href="https://twitter.com/alvinmotivtech" target="_blank">Twitter</a>
-    </div>
-</div> <!-- Container wordt hier correct gesloten -->
-
+        <!-- Email Opt-in Form -->
+        <div class="email-signup">
+            <h2>🚀 Get Exclusive Success Tips!</h2>
+            <p>Sign up for free and unlock exclusive motivational content.</p>
+            <a href="https://motivatech.gumroad.com/follow" class="cta-button">📩 Get Free Access</a>
+        </div>
 
         <!-- Social Links -->
         <div class="social-links">
@@ -177,6 +131,6 @@
             <a href="https://www.linkedin.com/in/alvinbetram/" target="_blank">LinkedIn</a> |
             <a href="https://twitter.com/alvinmotivtech" target="_blank">Twitter</a>
         </div>
-    </div>
+    </div> <!-- Container wordt hier correct gesloten -->
 </body>
 </html>
